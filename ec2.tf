@@ -1,5 +1,5 @@
 resource "aws_network_interface" "nic_lab" {
-  subnet_id   = aws_subnet.sg_lab.id
+  subnet_id   = aws_subnet.sub_lab_pub.id
   security_groups = [aws_security_group.sg_lab.id]
   tags = local.common_tags
 }
