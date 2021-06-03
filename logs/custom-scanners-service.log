@@ -419,3 +419,46 @@
 2021-06-02 22:52:16.189 DEBUG 12872 --- [http-nio-9221-exec-6] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [com.hcl.appscan.customscannersservice.controller.CustomScannersControllerAdvice$ErrorMessage@3e1a16]
 2021-06-02 22:52:16.190 DEBUG 12872 --- [http-nio-9221-exec-6] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [java.lang.IllegalArgumentException: A seguinte extensÃ£o de arquivo nÃ£o Ã© compatÃ­vel: gitignore]
 2021-06-02 22:52:16.191 DEBUG 12872 --- [http-nio-9221-exec-6] o.s.web.servlet.DispatcherServlet        : Completed 422 UNPROCESSABLE_ENTITY
+2021-06-02 22:55:50.909 DEBUG 12872 --- [http-nio-9221-exec-7] o.s.web.servlet.DispatcherServlet        : POST "/v1/scanFile", parameters={masked}
+2021-06-02 22:55:50.910 DEBUG 12872 --- [http-nio-9221-exec-7] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.hcl.appscan.customscannersservice.controller.CustomScannersController#runScanFile(MultipartFile, String, int[])
+2021-06-02 22:55:50.944  WARN 12872 --- [http-nio-9221-exec-7] c.h.a.c.service.ArticleProvider          : Nenhum artigo foi encontrado para vulnName: Root file system not mounted as read-only
+2021-06-02 22:55:50.944  WARN 12872 --- [http-nio-9221-exec-7] c.h.a.c.service.ArticleProvider          : Nenhum artigo foi encontrado para vulnName: Configuration
+2021-06-02 22:55:50.945  WARN 12872 --- [http-nio-9221-exec-7] c.h.a.c.service.ArticleProvider          : Nenhum artigo foi encontrado para vulnName: No user specified when running Docker from CLI
+2021-06-02 22:55:50.945  WARN 12872 --- [http-nio-9221-exec-7] c.h.a.c.service.ArticleProvider          : Nenhum artigo foi encontrado para vulnName: PrivilegeEscalation
+2021-06-02 22:55:50.945  WARN 12872 --- [http-nio-9221-exec-7] c.h.a.c.service.ArticleProvider          : Nenhum artigo foi encontrado para vulnName: Run command issued without no-new-privileges
+2021-06-02 22:55:50.945  WARN 12872 --- [http-nio-9221-exec-7] c.h.a.c.service.ArticleProvider          : Nenhum artigo foi encontrado para vulnName: PrivilegeEscalation
+2021-06-02 22:55:50.945  WARN 12872 --- [http-nio-9221-exec-7] c.h.a.c.service.ArticleProvider          : Nenhum artigo foi encontrado para vulnName: Limit memory to prevent a Denial of Service
+2021-06-02 22:55:50.945  WARN 12872 --- [http-nio-9221-exec-7] c.h.a.c.service.ArticleProvider          : Nenhum artigo foi encontrado para vulnName: AppDOS.Flood
+2021-06-02 22:55:50.945  WARN 12872 --- [http-nio-9221-exec-7] c.h.a.c.service.ArticleProvider          : Nenhum artigo foi encontrado para vulnName: Limit CPU to prevent a Denial of Service
+2021-06-02 22:55:50.945  WARN 12872 --- [http-nio-9221-exec-7] c.h.a.c.service.ArticleProvider          : Nenhum artigo foi encontrado para vulnName: AppDOS.Flood
+2021-06-02 22:55:50.945  WARN 12872 --- [http-nio-9221-exec-7] c.h.a.c.service.ArticleProvider          : Nenhum artigo foi encontrado para vulnName: Limit open files and processes to prevent a Denial of Service
+2021-06-02 22:55:50.946  WARN 12872 --- [http-nio-9221-exec-7] c.h.a.c.service.ArticleProvider          : Nenhum artigo foi encontrado para vulnName: AppDOS.Flood
+2021-06-02 22:55:50.946  WARN 12872 --- [http-nio-9221-exec-7] c.h.a.c.service.ArticleProvider          : Nenhum artigo foi encontrado para vulnName: Run command issued without no-new-privileges
+2021-06-02 22:55:50.946  WARN 12872 --- [http-nio-9221-exec-7] c.h.a.c.service.ArticleProvider          : Nenhum artigo foi encontrado para vulnName: PrivilegeEscalation
+2021-06-02 22:55:50.946  WARN 12872 --- [http-nio-9221-exec-7] c.h.a.c.service.ArticleProvider          : Nenhum artigo foi encontrado para vulnName: No user specified when running Docker from CLI
+2021-06-02 22:55:50.946  WARN 12872 --- [http-nio-9221-exec-7] c.h.a.c.service.ArticleProvider          : Nenhum artigo foi encontrado para vulnName: PrivilegeEscalation
+2021-06-02 22:55:50.946  WARN 12872 --- [http-nio-9221-exec-7] c.h.a.c.service.ArticleProvider          : Nenhum artigo foi encontrado para vulnName: Limit CPU to prevent a Denial of Service
+2021-06-02 22:55:50.946  WARN 12872 --- [http-nio-9221-exec-7] c.h.a.c.service.ArticleProvider          : Nenhum artigo foi encontrado para vulnName: AppDOS.Flood
+2021-06-02 22:55:50.946  WARN 12872 --- [http-nio-9221-exec-7] c.h.a.c.service.ArticleProvider          : Nenhum artigo foi encontrado para vulnName: Limit open files and processes to prevent a Denial of Service
+2021-06-02 22:55:50.946  WARN 12872 --- [http-nio-9221-exec-7] c.h.a.c.service.ArticleProvider          : Nenhum artigo foi encontrado para vulnName: AppDOS.Flood
+2021-06-02 22:55:50.946  WARN 12872 --- [http-nio-9221-exec-7] c.h.a.c.service.ArticleProvider          : Nenhum artigo foi encontrado para vulnName: Limit memory to prevent a Denial of Service
+2021-06-02 22:55:50.946  WARN 12872 --- [http-nio-9221-exec-7] c.h.a.c.service.ArticleProvider          : Nenhum artigo foi encontrado para vulnName: AppDOS.Flood
+2021-06-02 22:55:50.946  WARN 12872 --- [http-nio-9221-exec-7] c.h.a.c.service.ArticleProvider          : Nenhum artigo foi encontrado para vulnName: Root file system not mounted as read-only
+2021-06-02 22:55:50.946  WARN 12872 --- [http-nio-9221-exec-7] c.h.a.c.service.ArticleProvider          : Nenhum artigo foi encontrado para vulnName: Configuration
+2021-06-02 22:55:50.947 DEBUG 12872 --- [http-nio-9221-exec-7] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [application/json] and supported [application/json]
+2021-06-02 22:55:50.948 DEBUG 12872 --- [http-nio-9221-exec-7] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [CustomScannerServiceResult{findings=[CustomScannersServiceFinding{file='install_docker.sh', lineNumb (truncated)...]
+2021-06-02 22:55:50.962 DEBUG 12872 --- [http-nio-9221-exec-7] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2021-06-02 23:05:19.827 DEBUG 12872 --- [http-nio-9221-exec-8] o.s.web.servlet.DispatcherServlet        : POST "/v1/scanFile", parameters={masked}
+2021-06-02 23:05:19.830 DEBUG 12872 --- [http-nio-9221-exec-8] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.hcl.appscan.customscannersservice.controller.CustomScannersController#runScanFile(MultipartFile, String, int[])
+2021-06-02 23:05:19.831 DEBUG 12872 --- [http-nio-9221-exec-8] .m.m.a.ExceptionHandlerExceptionResolver : Using @ExceptionHandler com.hcl.appscan.customscannersservice.controller.CustomScannersControllerAdvice#handleInvalidArgument(IllegalArgumentException)
+2021-06-02 23:05:19.832 DEBUG 12872 --- [http-nio-9221-exec-8] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [application/json] and supported [application/json, application/*+json, application/json, application/*+json]
+2021-06-02 23:05:19.832 DEBUG 12872 --- [http-nio-9221-exec-8] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [com.hcl.appscan.customscannersservice.controller.CustomScannersControllerAdvice$ErrorMessage@26ba132 (truncated)...]
+2021-06-02 23:05:19.833 DEBUG 12872 --- [http-nio-9221-exec-8] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [java.lang.IllegalArgumentException: A seguinte extensÃ£o de arquivo nÃ£o Ã© compatÃ­vel: md]
+2021-06-02 23:05:19.833 DEBUG 12872 --- [http-nio-9221-exec-8] o.s.web.servlet.DispatcherServlet        : Completed 422 UNPROCESSABLE_ENTITY
+2021-06-02 23:07:12.130 DEBUG 12872 --- [http-nio-9221-exec-9] o.s.web.servlet.DispatcherServlet        : POST "/v1/scanFile", parameters={masked}
+2021-06-02 23:07:12.131 DEBUG 12872 --- [http-nio-9221-exec-9] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.hcl.appscan.customscannersservice.controller.CustomScannersController#runScanFile(MultipartFile, String, int[])
+2021-06-02 23:07:12.132 DEBUG 12872 --- [http-nio-9221-exec-9] .m.m.a.ExceptionHandlerExceptionResolver : Using @ExceptionHandler com.hcl.appscan.customscannersservice.controller.CustomScannersControllerAdvice#handleInvalidArgument(IllegalArgumentException)
+2021-06-02 23:07:12.132 DEBUG 12872 --- [http-nio-9221-exec-9] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [application/json] and supported [application/json, application/*+json, application/json, application/*+json]
+2021-06-02 23:07:12.132 DEBUG 12872 --- [http-nio-9221-exec-9] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [com.hcl.appscan.customscannersservice.controller.CustomScannersControllerAdvice$ErrorMessage@574841d (truncated)...]
+2021-06-02 23:07:12.133 DEBUG 12872 --- [http-nio-9221-exec-9] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [java.lang.IllegalArgumentException: A seguinte extensÃ£o de arquivo nÃ£o Ã© compatÃ­vel: md]
+2021-06-02 23:07:12.133 DEBUG 12872 --- [http-nio-9221-exec-9] o.s.web.servlet.DispatcherServlet        : Completed 422 UNPROCESSABLE_ENTITY
