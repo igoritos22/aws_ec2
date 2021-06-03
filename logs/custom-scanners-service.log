@@ -462,3 +462,10 @@
 2021-06-02 23:07:12.132 DEBUG 12872 --- [http-nio-9221-exec-9] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [com.hcl.appscan.customscannersservice.controller.CustomScannersControllerAdvice$ErrorMessage@574841d (truncated)...]
 2021-06-02 23:07:12.133 DEBUG 12872 --- [http-nio-9221-exec-9] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [java.lang.IllegalArgumentException: A seguinte extensÃ£o de arquivo nÃ£o Ã© compatÃ­vel: md]
 2021-06-02 23:07:12.133 DEBUG 12872 --- [http-nio-9221-exec-9] o.s.web.servlet.DispatcherServlet        : Completed 422 UNPROCESSABLE_ENTITY
+2021-06-02 23:10:29.789 DEBUG 12872 --- [http-nio-9221-exec-10] o.s.web.servlet.DispatcherServlet        : POST "/v1/scanFile", parameters={masked}
+2021-06-02 23:10:29.790 DEBUG 12872 --- [http-nio-9221-exec-10] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.hcl.appscan.customscannersservice.controller.CustomScannersController#runScanFile(MultipartFile, String, int[])
+2021-06-02 23:10:29.792 DEBUG 12872 --- [http-nio-9221-exec-10] .m.m.a.ExceptionHandlerExceptionResolver : Using @ExceptionHandler com.hcl.appscan.customscannersservice.controller.CustomScannersControllerAdvice#handleInvalidArgument(IllegalArgumentException)
+2021-06-02 23:10:29.792 DEBUG 12872 --- [http-nio-9221-exec-10] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [application/json] and supported [application/json, application/*+json, application/json, application/*+json]
+2021-06-02 23:10:29.792 DEBUG 12872 --- [http-nio-9221-exec-10] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [com.hcl.appscan.customscannersservice.controller.CustomScannersControllerAdvice$ErrorMessage@5d63fa3 (truncated)...]
+2021-06-02 23:10:29.793 DEBUG 12872 --- [http-nio-9221-exec-10] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [java.lang.IllegalArgumentException: A seguinte extensÃ£o de arquivo nÃ£o Ã© compatÃ­vel: md]
+2021-06-02 23:10:29.793 DEBUG 12872 --- [http-nio-9221-exec-10] o.s.web.servlet.DispatcherServlet        : Completed 422 UNPROCESSABLE_ENTITY
