@@ -36,6 +36,22 @@ resource "aws_security_group" "sg_lab" {
   }
 
   ingress {
+    cidr_blocks = var.cidr_blocks
+    from_port   = 50000
+    to_port     = 50000
+    protocol    = "tcp"
+    description = "allow-jenkins-slave"
+  }
+
+  ingress {
+    cidr_blocks = var.cidr_blocks
+    from_port   = 8080
+    to_port     = 8080
+    protocol    = "tcp"
+    description = "allow-jenkins-dashboard"
+  }
+
+  ingress {
       cidr_blocks = var.cidr_blocks
       from_port     = -1
       to_port       = -1
